@@ -45,9 +45,9 @@ defmodule HandDigits.MixProject do
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.1.1"},
       {:plug_cowboy, "~> 2.5"},
-      {:axon, "~> 0.5.1"},
-      {:exla, "~> 0.5.1"},
-      {:nx, "~> 0.5.1"},
+      {:axon, "~> 0.6.0"},
+      {:exla, "~> 0.6.4"},
+      {:nx, "~> 0.6.4"},
       {:scidata, "~> 0.1.11"},
       # For scidata
       {:castore, "~> 0.1"},
