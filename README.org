@@ -1,0 +1,30 @@
+* 创建
+mix phx.new hand-digits --app hand_digits --no-ecto --no-mailer --no-gettext
+
+* 配置
+Application.get_all_env(:nx)
+
+* MNIST
+# Download MNIST
+HandDigits.MnistData.load_mnist()
+Scidata.MNIST.download()
+# heatmap
+HandDigits.Examples.demo()
+# label: 5
+HandDigits.Examples.demo2()
+# tensor
+HandDigits.Examples.demo3()
+
+* Train
+HandDigits.Train.train()
+
+* npm
+cd assets
+npm install draw-on-canvas --save
+
+* Evision
+brew install tesseract
+mix deps.compile evision --force
+
+* LiveView
+http://localhost:4000/

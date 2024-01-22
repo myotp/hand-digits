@@ -50,7 +50,8 @@ defmodule HandDigits.MixProject do
       {:nx, "~> 0.5.1"},
       {:scidata, "~> 0.1.11"},
       # For scidata
-      {:castore, "~> 0.1"}
+      {:castore, "~> 0.1"},
+      {:evision, "~> 0.1.28"}
     ]
   end
 
