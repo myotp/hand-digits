@@ -27,4 +27,5 @@ brew install tesseract
 mix deps.compile evision --force
 
 * LiveView
+mix assets.deploy
 http://localhost:4000/

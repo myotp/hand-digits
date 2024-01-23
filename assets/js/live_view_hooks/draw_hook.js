@@ -1,4 +1,4 @@
-import Draw from '../../node_modules/draw-on-canvas'
+import Draw from 'draw-on-canvas'
 
 export default {
     mounted() {
