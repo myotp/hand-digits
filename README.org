@@ -27,12 +27,11 @@ brew install tesseract
 mix deps.compile evision --force
 
 * All
-mix deps.get
 cd assets
 npm install
 cd ..
+mix setup
 mix compile
-mix assets.setup
 iex -S mix phx.server
 HandDigits.Train.train()
 http://localhost:4000/
